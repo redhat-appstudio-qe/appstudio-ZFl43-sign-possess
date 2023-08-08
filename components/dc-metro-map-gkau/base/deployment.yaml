@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-gkau
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/release-e2e-pyxis-tenant/appstudio/dc-metro-map-gkau@sha256:690dba28074643445d3cf2f0cd8edc011105dc04a3e49fda15252739734fc033
         name: my-nodejs
         ports:
         - containerPort: 3001
